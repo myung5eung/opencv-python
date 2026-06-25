@@ -7,8 +7,9 @@
 <img width="353" height="69" alt="image" src="https://github.com/user-attachments/assets/ae963b85-c727-48f5-a4c9-e91e79ab23de" />
 
 # 실습과제3
-![Uploading image.png…]()
+<img width="436" height="104" alt="image" src="https://github.com/user-attachments/assets/f219c465-6f36-4920-b5c1-cbc7c5bb71c0" />
 
 # 실습과제4
+![Uploading image.png…]()
 
 # 실습과제5
