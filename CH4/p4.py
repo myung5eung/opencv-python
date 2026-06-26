@@ -1,18 +1,18 @@
 import numpy as np
 import cv2
 
-def onMouse(event, x, y, flags, param):
-    if event == cv2.EVENT_LBUTTONDOWN:
-        print(f"좌표: ({x},{y}), 화소값(B,R,G): ({param[x,y][0],param[x,y][1],param[x,y][2]})")
+c = 0
 
-image =  cv2.imread('lenna.bmp',cv2.IMREAD_COLOR)
-if image is None:
-    raise Exception("파일 읽기 오류")
+def onChange(value):
+    global c
+    c += 1
+    print(f"트랙바 이벤트 횟수: {c}\n트랙바 위치: {value}")
 
-cv2.imshow('Mouse Event', image)
-cv2.setMouseCallback('Mouse Event', onMouse, image)
+image = cv2.imread('lenna.bmp',cv2.IMREAD_COLOR)
+title = "Trackbar"
+cv2.imshow(title, image)
+cv2.createTrackbar("bar", title, 0, 255, onChange)
+
 while True:
-    key=cv2.waitKey(1)
-    if key ==27:
-        break
+    if cv2.waitKey(1000) == 27: break
 cv2.destroyAllWindows()
