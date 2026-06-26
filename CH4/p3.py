@@ -11,6 +11,8 @@ if image is None:
 
 cv2.imshow('Mouse Event', image)
 cv2.setMouseCallback('Mouse Event', onMouse, image)
-
-cv2.waitKey(0)
+while True:
+    key=cv2.waitKey(1)
+    if key ==27:
+        break
 cv2.destroyAllWindows()
