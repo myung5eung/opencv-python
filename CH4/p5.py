@@ -13,7 +13,7 @@ def onMouse(event, x, y, flags, param):
         image[:,:,0].fill(0)
         cv2.imshow(title, param)
 
-image = np.zeros((300, 500, 3), np.uint8)
+image = np.zeros((400, 200, 3), np.uint8)
 title = "Trackbar & Mouse Event"
 cv2.imshow(title, image)
 cv2.setMouseCallback(title, onMouse, image)
