@@ -8,6 +8,7 @@
 <img width="867" height="442" alt="image" src="https://github.com/user-attachments/assets/cc610c0d-2757-4f53-8933-05de91b41253" />
 
 # 실습과제 4
+<img width="974" height="468" alt="image" src="https://github.com/user-attachments/assets/b4c48041-1604-48c4-821c-92c8cc9b7375" />
 
 # 실습과제 5
 <img width="803" height="238" alt="image" src="https://github.com/user-attachments/assets/4f23b740-df5d-4716-a1b6-06e22adf300f" />
