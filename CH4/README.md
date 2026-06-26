@@ -9,7 +9,9 @@
 
 # 실습과제 4
 
-# 실습과제 5<img width="296" height="344" alt="image" src="https://github.com/user-attachments/assets/8325d6f7-14f7-4427-90da-8889a721c2f7" />
+# 실습과제 5
+
 
 
 # 실습과제 6
+<img width="847" height="359" alt="image" src="https://github.com/user-attachments/assets/c765ae87-92bd-4c88-b265-ed5afadca72c" />
