@@ -3,7 +3,7 @@ import cv2
 
 def onMouse(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
-        print(f"좌표: ({x},{y}), 화소값: {param[x,y]}")
+        print(f"좌표: ({x},{y}), 화소값: {int(param[y,x])}")
 
 image =  cv2.imread('lenna.bmp',cv2.IMREAD_GRAYSCALE)
 if image is None:
