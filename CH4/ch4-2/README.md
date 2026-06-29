@@ -14,5 +14,6 @@ https://github.com/user-attachments/assets/990bdedf-0ac3-4e1b-997b-54e1932a16ac
 https://github.com/user-attachments/assets/a821d8a9-36c1-46c7-984e-b7deeef48744
 
 # 실습과제 6
+https://github.com/user-attachments/assets/344e1778-440a-4807-bfb1-6117b994341e
 
 # 실습과제 7
