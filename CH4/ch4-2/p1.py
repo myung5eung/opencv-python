@@ -88,59 +88,37 @@ import cv2
 # cv2.destroyAllWindows()
 
 #5번
+import numpy as np
+import cv2
 image = np.zeros((500, 500, 3), np.uint8)
-image[:] = 255
 
-h, w = image.shape[:2]
 rows, cols = 5, 5
+h, w = image.shape[:2]
+ch = h//rows
+cw = w//cols
+row, col= 2, 2
 
-ch = h // rows
-cw = w // cols
-
-row, col = 2, 2  # 시작 위치
-
-
-def draw(image, r, c):
+while True:
     image[:] = 255
 
-    # grid
     for i in range(1, rows):
         cv2.line(image, (0, i * ch), (w, i * ch), (0, 0, 0), 1)
-
     for i in range(1, cols):
         cv2.line(image, (i * cw, 0), (i * cw, h), (0, 0, 0), 1)
 
-    # selected cell
-    x1 = c * cw
-    y1 = r * ch
-    x2 = (c + 1) * cw
-    y2 = (r + 1) * ch
-
-    cv2.rectangle(image, (x1, y1), (x2, y2), (255, 0, 0), -1)
-
-while True:
-    draw(image, row, col)
-    cv2.imshow("grid", image)
-
-    key = cv2.waitKey(30)  # 핵심: 0 ❌ → 30 ⭕ (계속 루프)
-
-    # 종료 키
-    if key == 27 or key == ord('q'):
+    cv2.rectangle(image,(col * cw, row * ch),((col + 1) * cw, (row + 1) * ch),(255, 0, 0),-1)
+    cv2.imshow("src", image)
+    key = cv2.waitKeyEx(30)
+    if key == ord('q'):
         break
-
-    # 방향키
-    if key == 224:
-        key2 = cv2.waitKey(0)
-
-        if key2 == 72:
-            row -= 1
-        elif key2 == 80:
-            row += 1
-        elif key2 == 75:
-            col -= 1
-        elif key2 == 77:
-            col += 1
-
+    elif key == 0x260000:
+        row -= 1
+    elif key == 0x280000:
+        row += 1
+    elif key == 0x250000:
+        col -= 1
+    elif key == 0x270000:
+        col += 1
     row = max(0, min(rows - 1, row))
     col = max(0, min(cols - 1, col))
 
