@@ -3,3 +3,6 @@
 
 # 실습과제 2
 <img width="1091" height="584" alt="image" src="https://github.com/user-attachments/assets/7d4fb85f-87e9-4fc8-8e1c-0ed68845c363" />
+
+# 실습과제 3
+<img width="1237" height="692" alt="image" src="https://github.com/user-attachments/assets/74b94002-b19b-489b-954f-9f0a66ab5ede" />
