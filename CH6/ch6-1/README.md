@@ -4,3 +4,6 @@ Python에서 반복문을 이용한 화소 처리는 모든 화소를 Python 인
 
 # 실습과제 2
 <img width="514" height="478" alt="image" src="https://github.com/user-attachments/assets/d0b96581-01f0-49d0-be96-7cca07e6e2ea" />
+
+# 실습과제 3
+<img width="987" height="795" alt="image" src="https://github.com/user-attachments/assets/8fb62ca6-1e65-42ed-8fb3-3d8475daa5f7" />
