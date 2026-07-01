@@ -7,3 +7,6 @@ Python에서 반복문을 이용한 화소 처리는 모든 화소를 Python 인
 
 # 실습과제 3
 <img width="987" height="795" alt="image" src="https://github.com/user-attachments/assets/8fb62ca6-1e65-42ed-8fb3-3d8475daa5f7" />
+
+# 실습과제 4
+<img width="757" height="772" alt="image" src="https://github.com/user-attachments/assets/0bfd7235-2da4-4f4f-a81f-9b34da6516e2" />
