@@ -17,7 +17,7 @@
 <img width="436" height="104" alt="image" src="https://github.com/user-attachments/assets/f219c465-6f36-4920-b5c1-cbc7c5bb71c0" />
 
 # 실습과제4
-![Uploading image.png…]()
+<img width="593" height="140" alt="image" src="https://github.com/user-attachments/assets/ef997329-39a8-49a6-a095-2df6dfd2ef13" />
 
 # 실습과제5
 ![Uploading image.png…]()
