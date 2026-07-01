@@ -14,5 +14,4 @@
 <img width="1049" height="490" alt="image" src="https://github.com/user-attachments/assets/50a8543b-15a4-4263-95b8-bcfa1f549759" />
 
 # 실습과제 3
-
 <img width="1006" height="594" alt="image" src="https://github.com/user-attachments/assets/e24866c8-07f7-4b81-a907-41b7d511fb5c" />
