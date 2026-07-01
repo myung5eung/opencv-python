@@ -1,6 +1,6 @@
 import cv2
 
-class BrightnessApp:
+class lennag:
     def __init__(self, image):
         self.image = image
         self.b = 0
@@ -33,7 +33,7 @@ class BrightnessApp:
 image = cv2.imread("lenna.bmp", cv2.IMREAD_GRAYSCALE)
 if image is None:
     raise Exception("파일 읽기 오류")
-a = BrightnessApp(image)
+a = lennag(image)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
