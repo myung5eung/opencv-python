@@ -1,4 +1,5 @@
 # 실습과제 1
+<img width="1753" height="620" alt="image" src="https://github.com/user-attachments/assets/469d1331-c46c-4422-8f6d-d495753c8924" />
 
 # 실습과제 2
 - α 값이 많이 큰 경우에는 픽셀 값 간의 차이가 커지면서 영상의 대비가 증가하고 전체적으로 선명한 영상이 된다.
