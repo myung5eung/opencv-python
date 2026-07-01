@@ -20,4 +20,5 @@
 <img width="593" height="140" alt="image" src="https://github.com/user-attachments/assets/ef997329-39a8-49a6-a095-2df6dfd2ef13" />
 
 # 실습과제5
-![Uploading image.png…]()
+<img width="1523" height="555" alt="image" src="https://github.com/user-attachments/assets/be295448-3886-4488-954f-bad8d11407e3" />
+
