@@ -30,7 +30,7 @@ image = cv2.imread("lenna.bmp", cv2.IMREAD_GRAYSCALE)
 if image is None:
     raise Exception("파일 읽기 오류")
 
-g = LennaG(image) #프로그램이끝날동안 객체를 유지하기 위한 변수설정
+g = LennaG(image) #LennaG 객체를 생성하고 프로그램이 끝날 때까지 유지하기 위함
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
