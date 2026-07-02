@@ -14,8 +14,8 @@ maxp = 0  #가장 큰 빈도수를 가진 픽셀값을 저장할 변수
 
 for i in range(256):
     if hist[i, 0] > maxf:
-        maxf = int(hist[i, 0])  #가장 큰 빈도수를 저장함
-        maxp = i  #가장 큰 빈도수를 가진 픽셀값을 저장함
+        maxf = int(hist[i, 0])  #빈도수를 저장함
+        maxp = i  #픽셀값을 저장함
 
 f80 = int(hist[80, 0])  #픽셀값 80의 빈도수를 구함
 print(f"영상의 전체 픽셀수: {count}")
